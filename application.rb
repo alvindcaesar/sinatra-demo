@@ -2,7 +2,7 @@ require 'sinatra'
 
 class HiSinatra < Sinatra::Base
   get '/' do
-    'Hey Sinatra!'
+     erb :index
   end
 
   get '/test' do
